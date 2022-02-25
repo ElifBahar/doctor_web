@@ -880,6 +880,13 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.about-us{
+    background-image: url('/frontend/assets/img/background_06.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .about-us .content h2 {
   font-weight: 700;
   font-size: 42px;
