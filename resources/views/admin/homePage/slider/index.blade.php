@@ -3,6 +3,12 @@
 @section('admin')
     <div class="col-lg-12">
         <div class="card card-default">
+            @if(session('success'))
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>{{ session('success') }}</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            @endif
             <div class="card-header card-header-border-bottom">
                 <h2>Ana Sayfa Slider Listesi</h2>
                 <a href="{{ route('slider-add') }}"><button class="mb-1 btn btn-info">Slider Ekle</button></a>
@@ -12,11 +18,11 @@
                 <table class="table table-striped">
                     <thead>
                     <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Başlık</th>
-                        <th scope="col">Açıklama</th>
-                        <th scope="col">Resim</th>
-                        <th scope="col">Eylemler</th>
+                        <th scope="col" width="5%">#</th>
+                        <th scope="col" width="15%">Başlık</th>
+                        <th scope="col" width="25%">Açıklama</th>
+                        <th scope="col" width="15%">Resim</th>
+                        <th scope="col" width="15%">Eylemler</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -26,7 +32,7 @@
                         <td scope="row">{{ $slider->id }}</td>
                         <td>{{ $slider->title }}</td>
                         <td>{{ $slider->description }}</td>
-                        <td><img src="{{ asset($slider->image) }}" style="height: 40px; width: 70px;"> </td>
+                        <td><img src="{{ asset($slider->image) }}" style="height: 75px; width: 150px;"> </td>
                         <td><a href="{{ url('slider/edit/'.$slider->id) }}" class="btn btn-info">Edit</a>
                             <a href="{{ url('slider/delete/'.$slider->id) }}" onclick="return confirm('Silmek istediğinizden emin misiniz?')" class="btn btn-danger">Delete</a>
                         </td>

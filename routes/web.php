@@ -30,6 +30,7 @@ Route::group((['prefix' => 'panel', 'middleware' => ['auth:sanctum', 'verified']
 
         Route::get('/slider',[SliderController::class,'index'])->name('slider-index');
         Route::get('/slider/add',[SliderController::class, 'AddSlider'])->name('slider-add');
+        Route::post('/slider/store',[SliderController::class, 'StoreSlider'])->name('slider-store');
 
     });
 

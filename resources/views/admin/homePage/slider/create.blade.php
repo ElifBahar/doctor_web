@@ -8,7 +8,7 @@
             </div>
             <div class="card-body">
                 <p class="mb-5">Aşağıdaki alanları doldurarak slider'a ekleme yapabilirsiniz.</p>
-                <form action="" method="POST" enctype="multipart/form-data">
+                <form action="{{ route('slider-store') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Slider Başlığı :</label>
