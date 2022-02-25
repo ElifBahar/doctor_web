@@ -2,7 +2,7 @@
 
 @section('home_content')
     <!-- ======= About Us Section ======= -->
-    <section id="about-us" class="about-us">
+    <section id="about-us" class="about-us" >
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
