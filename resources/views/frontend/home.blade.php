@@ -6,15 +6,31 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>About Us</strong></h2>
+                <h2>Hakkımda</strong></h2>
             </div>
 
             <div class="row content">
                 <div class="col-lg-6" data-aos="fade-right">
-                    <h2>Eum ipsam laborum deleniti velitena</h2>
-                    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
+
+                    <div class="member aos-init aos-animate" data-aos="fade-up">
+                        <div class="member-img">
+
+                            <img src="{{asset('frontend/assets/img/team/team-1.jpg')}}" class="img-fluid" alt="">
+                            <div class="social">
+
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Walter White</h4>
+                            <span>Chief Executive Officer</span>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
+                    <h2>Eum ipsam laborum deleniti velitena</h2>
+                    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
+
                     <p>
                         Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
                         velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
