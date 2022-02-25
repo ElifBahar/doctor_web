@@ -1,6 +1,7 @@
 @extends('admin.layouts.admin_master')
 
 @section('admin')
+
     <div class="col-lg-12">
         <div class="card card-default">
             @if(session('success'))
@@ -10,7 +11,7 @@
                 </div>
             @endif
             <div class="card-header card-header-border-bottom">
-                <h2>Ana Sayfa Slider Listesi</h2>
+                <h2>Ana Sayfa - Slider</h2>
                 <a href="{{ route('slider-add') }}"><button class="mb-1 btn btn-info">Slider Ekle</button></a>
             </div>
             <div class="card-body">
@@ -34,7 +35,7 @@
                         <td>{{ $slider->description }}</td>
                         <td><img src="{{ asset($slider->image) }}" style="height: 75px; width: 150px;"> </td>
                         <td><a href="{{ route('slider-edit',['id'=>$slider->id]) }}" class="btn btn-info">Düzenle</a>
-                            <a href="{{ route('slider-delete',$slider->id) }}" onclick="return confirm('Silmek istediğinizden emin misiniz?')" class="btn btn-danger">Delete</a>
+                            <a href="{{ route('slider-delete',$slider->id) }}" onclick="return confirm('Silmek istediğinizden emin misiniz?')" class="btn btn-danger">Sil</a>
                         </td>
                     </tr>
 
