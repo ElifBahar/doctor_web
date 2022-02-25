@@ -8,14 +8,39 @@
 
         <nav class="nav-menu d-none d-lg-block">
             <ul>
-                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active"><a href="index.html">Ana Sayfa</a></li>
 
-                <li class="drop-down"><a href="">About</a>
+                <li class="drop-down"><a href="">Hakkımda</a>
                     <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="team.html">Team</a></li>
-                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="about.html">Hakkımda</a></li>
+                        <li><a href="team.html">Eğitim</a></li>
+                        <li><a href="testimonials.html">Kariyer</a></li>
                         <li class="drop-down"><a href="#">Deep Drop Down</a>
+                            <ul>
+                                <li><a href="#">Deep Drop Down 1</a></li>
+                                <li><a href="#">Deep Drop Down 2</a></li>
+                                <li><a href="#">Deep Drop Down 3</a></li>
+                                <li><a href="#">Deep Drop Down 4</a></li>
+                                <li><a href="#">Deep Drop Down 5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="drop-down"><a href="">Uygulamalar</a>
+                    <ul>
+
+                        <li class="drop-down"><a href="#">Klinik Uygulamalar</a>
+                            <ul>
+                                <li><a href="#">Deep Drop Down 1</a></li>
+                                <li><a href="#">Deep Drop Down 2</a></li>
+                                <li><a href="#">Deep Drop Down 3</a></li>
+                                <li><a href="#">Deep Drop Down 4</a></li>
+                                <li><a href="#">Deep Drop Down 5</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="drop-down"><a href="#">Cerrahi Uygulamalar</a>
                             <ul>
                                 <li><a href="#">Deep Drop Down 1</a></li>
                                 <li><a href="#">Deep Drop Down 2</a></li>
