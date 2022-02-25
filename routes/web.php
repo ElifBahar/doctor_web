@@ -21,7 +21,7 @@ Route::get('/', function () {
 
 Route::group((['prefix' => 'panel', 'middleware' => ['auth:sanctum', 'verified']]), function (){
     Route::get('/home',function (){
-        return view('dashboard');
+        return view('admin.dashboard.home');
     })->name('dashboard');
 
 
