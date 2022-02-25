@@ -11,4 +11,8 @@ class SliderController extends Controller
         $sliders = Slider::latest()->get();
         return view('admin.homePage.slider.index',compact('sliders'));
     }
+
+    public function AddSlider(){
+        return view('admin.homePage.slider.create');
+    }
 }

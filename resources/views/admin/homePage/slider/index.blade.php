@@ -5,7 +5,7 @@
         <div class="card card-default">
             <div class="card-header card-header-border-bottom">
                 <h2>Ana Sayfa Slider Listesi</h2>
-                <a href=""><button class="mb-1 btn btn-info">Slider Ekle</button></a>
+                <a href="{{ route('slider-add') }}"><button class="mb-1 btn btn-info">Slider Ekle</button></a>
             </div>
             <div class="card-body">
                 <p class="mb-5">Ana Sayfa'daki slider alanındaki görsellere ve açıklamalarına aşağıdaki listeden ulaşabilirsiniz.</p>

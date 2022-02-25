@@ -28,7 +28,8 @@ Route::group((['prefix' => 'panel', 'middleware' => ['auth:sanctum', 'verified']
 
     Route::group(['prefix' => 'home'], function(){
 
-        Route::get('/sliders',[SliderController::class,'index'])->name('slider-index');
+        Route::get('/slider',[SliderController::class,'index'])->name('slider-index');
+        Route::get('/slider/add',[SliderController::class, 'AddSlider'])->name('slider-add');
 
     });
 
