@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\admin\homePage\SliderController;
+use App\Http\Controllers\frontend\FrontHomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,11 +15,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('frontend.home');
 });
 
+*/
 
+Route::get('/',[FrontHomeController::class,'index']);
 
 Route::group((['prefix' => 'panel', 'middleware' => ['auth:sanctum', 'verified']]), function (){
     Route::get('/home',function (){
@@ -31,7 +34,9 @@ Route::group((['prefix' => 'panel', 'middleware' => ['auth:sanctum', 'verified']
         Route::get('/slider',[SliderController::class,'index'])->name('slider-index');
         Route::get('/slider/add',[SliderController::class, 'AddSlider'])->name('slider-add');
         Route::post('/slider/store',[SliderController::class, 'StoreSlider'])->name('slider-store');
-
+        Route::get('/slider/edit/{id}',[SliderController::class, 'SliderEdit'])->name('slider-edit');
+        Route::post('/slider/update/{id}',[SliderController::class, 'SliderUpdate'])->name('slider-update');
+        Route::get('/slider/delete/{id}',[SliderController::class, 'SliderDelete']);
     });
 
 });

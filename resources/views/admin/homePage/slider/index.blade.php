@@ -33,7 +33,7 @@
                         <td>{{ $slider->title }}</td>
                         <td>{{ $slider->description }}</td>
                         <td><img src="{{ asset($slider->image) }}" style="height: 75px; width: 150px;"> </td>
-                        <td><a href="{{ url('slider/edit/'.$slider->id) }}" class="btn btn-info">Edit</a>
+                        <td><a href="{{ route('slider-edit',['id'=>$slider->id]) }}" class="btn btn-info">Düzenle</a>
                             <a href="{{ url('slider/delete/'.$slider->id) }}" onclick="return confirm('Silmek istediğinizden emin misiniz?')" class="btn btn-danger">Delete</a>
                         </td>
                     </tr>
