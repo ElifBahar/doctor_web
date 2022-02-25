@@ -43,7 +43,7 @@ Route::group((['prefix' => 'panel', 'middleware' => ['auth:sanctum', 'verified']
         Route::get('/about',[AboutController::class, 'index'])->name('about-index');
         Route::get('/about/add',[AboutController::class, 'AddAbout'])->name('about-add');
         Route::post('/about/store',[AboutController::class, 'StoreAbout'])->name('about-store');
-        Route::get('/slider/edit/{id}',[AboutController::class, 'AboutEdit'])->name('about-edit');
+        Route::get('/about/edit/{id}',[AboutController::class, 'AboutEdit'])->name('about-edit');
         Route::post('/about/update/{id}',[AboutController::class, 'AboutUpdate'])->name('about-update');
         Route::get('/about/delete/{id}',[AboutController::class, 'AboutDelete'])->name('about-delete');
     });
