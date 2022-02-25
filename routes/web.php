@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\admin\homePage\SliderController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,5 +25,11 @@ Route::group((['prefix' => 'panel', 'middleware' => ['auth:sanctum', 'verified']
         return view('admin.dashboard.home');
     })->name('dashboard');
 
+
+    Route::group(['prefix' => 'home'], function(){
+
+        Route::get('/sliders',[SliderController::class,'index'])->name('slider-index');
+
+    });
 
 });
