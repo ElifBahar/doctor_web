@@ -38,23 +38,27 @@
                     <ul class="collapse show" id="dashboard" data-parent="#sidebar-menu">
                         <div class="sub-menu">
                             <li class="active">
-                                <a class="sidenav-item-link" href="">
-                                    <span class="nav-text">Menü Ayarları</span>
-
-                                </a>
-                            </li>
-                            <li class="active">
                                 <a class="sidenav-item-link" href="{{ route('slider-index') }}">
                                     <span class="nav-text">Slider Ayarları</span>
 
                                 </a>
                             </li>
+
                             <li class="active">
-                                <a class="sidenav-item-link" href="">
-                                    <span class="nav-text">Home About</span>
+                                <a class="sidenav-item-link" href="{{ route('about-index') }}">
+                                    <span class="nav-text">Hakkımda</span>
 
                                 </a>
                             </li>
+
+                            <li class="active">
+                                <a class="sidenav-item-link" href="">
+                                    <span class="nav-text">Menü Ayarları</span>
+
+                                </a>
+                            </li>
+
+
                             <li class="active">
                                 <a class="sidenav-item-link" href="index.html">
                                     <span class="nav-text">Home Portfolio</span>
