@@ -40,7 +40,12 @@
 <body>
 
 @include('frontend.layouts.header')
-@include('frontend.layouts.slider')
+
+@if($sliders != null)
+
+    @include('frontend.layouts.slider')
+@endif
+
 
 <main id="main">
 
