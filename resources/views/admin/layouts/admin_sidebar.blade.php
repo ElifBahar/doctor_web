@@ -83,101 +83,29 @@
                        data-target="#ui-elements"
                        aria-expanded="false" aria-controls="ui-elements">
                         <i class="mdi mdi-folder-multiple-outline"></i>
-                        <span class="nav-text">UI Elements</span> <b class="caret"></b>
+                        <span class="nav-text">HAKKIMDA</span> <b class="caret"></b>
                     </a>
                     <ul class="collapse" id="ui-elements"
                         data-parent="#sidebar-menu">
                         <div class="sub-menu">
 
-
                             <li class="has-sub">
                                 <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse"
                                    data-target="#components"
                                    aria-expanded="false" aria-controls="components">
-                                    <span class="nav-text">Components</span> <b class="caret"></b>
+                                    <span class="nav-text">Hakkımda</span> <b class="caret"></b>
                                 </a>
                                 <ul class="collapse" id="components">
                                     <div class="sub-menu">
 
                                         <li>
-                                            <a href="alert.html">Alert</a>
+                                            <a href="">Listele</a>
                                         </li>
 
                                         <li>
-                                            <a href="badge.html">Badge</a>
+                                            <a href="">Ekle</a>
                                         </li>
 
-                                        <li>
-                                            <a href="breadcrumb.html">Breadcrumb</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="button-default.html">Button Default</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="button-dropdown.html">Button Dropdown</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="button-group.html">Button Group</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="button-social.html">Button Social</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="button-loading.html">Button Loading</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="card.html">Card</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="carousel.html">Carousel</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="collapse.html">Collapse</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="list-group.html">List Group</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="modal.html">Modal</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="pagination.html">Pagination</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="popover-tooltip.html">Popover & Tooltip</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="progress-bar.html">Progress Bar</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="spinner.html">Spinner</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="switcher.html">Switcher</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="table.html">Table</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="tab.html">Tab</a>
-                                        </li>
 
                                     </div>
                                 </ul>
@@ -188,17 +116,17 @@
                                 <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse"
                                    data-target="#icons"
                                    aria-expanded="false" aria-controls="icons">
-                                    <span class="nav-text">Icons</span> <b class="caret"></b>
+                                    <span class="nav-text">Eğitim</span> <b class="caret"></b>
                                 </a>
                                 <ul class="collapse" id="icons">
                                     <div class="sub-menu">
 
                                         <li>
-                                            <a href="material-icon.html">Material Icon</a>
+                                            <a href="">Listele</a>
                                         </li>
 
                                         <li>
-                                            <a href="flag-icon.html">Flag Icon</a>
+                                            <a href="">Ekle</a>
                                         </li>
 
                                     </div>
@@ -210,79 +138,21 @@
                                 <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse"
                                    data-target="#forms"
                                    aria-expanded="false" aria-controls="forms">
-                                    <span class="nav-text">Forms</span> <b class="caret"></b>
+                                    <span class="nav-text">Kariyer</span> <b class="caret"></b>
                                 </a>
                                 <ul class="collapse" id="forms">
                                     <div class="sub-menu">
 
                                         <li>
-                                            <a href="basic-input.html">Basic Input</a>
+                                            <a href="">Listele</a>
                                         </li>
 
                                         <li>
-                                            <a href="input-group.html">Input Group</a>
+                                            <a href="">Ekle</a>
                                         </li>
-
-                                        <li>
-                                            <a href="checkbox-radio.html">Checkbox & Radio</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="form-validation.html">Form Validation</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="form-advance.html">Form Advance</a>
-                                        </li>
-
                                     </div>
                                 </ul>
                             </li>
-
-
-                            <li class="has-sub">
-                                <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse"
-                                   data-target="#maps"
-                                   aria-expanded="false" aria-controls="maps">
-                                    <span class="nav-text">Maps</span> <b class="caret"></b>
-                                </a>
-                                <ul class="collapse" id="maps">
-                                    <div class="sub-menu">
-
-                                        <li>
-                                            <a href="google-map.html">Google Map</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="vector-map.html">Vector Map</a>
-                                        </li>
-
-                                    </div>
-                                </ul>
-                            </li>
-
-
-                            <li class="has-sub">
-                                <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse"
-                                   data-target="#widgets"
-                                   aria-expanded="false" aria-controls="widgets">
-                                    <span class="nav-text">Widgets</span> <b class="caret"></b>
-                                </a>
-                                <ul class="collapse" id="widgets">
-                                    <div class="sub-menu">
-
-                                        <li>
-                                            <a href="general-widget.html">General Widget</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="chart-widget.html">Chart Widget</a>
-                                        </li>
-
-                                    </div>
-                                </ul>
-                            </li>
-
 
                         </div>
                     </ul>
@@ -293,18 +163,50 @@
                     <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
                        aria-expanded="false" aria-controls="charts">
                         <i class="mdi mdi-chart-pie"></i>
-                        <span class="nav-text">Charts</span> <b class="caret"></b>
+                        <span class="nav-text">Uygulamalar</span> <b class="caret"></b>
                     </a>
                     <ul class="collapse" id="charts"
                         data-parent="#sidebar-menu">
                         <div class="sub-menu">
 
-
-                            <li>
-                                <a class="sidenav-item-link" href="chartjs.html">
-                                    <span class="nav-text">ChartJS</span>
-
+                            <li class="has-sub">
+                                <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse"
+                                   data-target="#clinic"
+                                   aria-expanded="false" aria-controls="clinic">
+                                    <span class="nav-text">Klinik Uygulamalar</span> <b class="caret"></b>
                                 </a>
+                                <ul class="collapse" id="clinic">
+                                    <div class="sub-menu">
+
+                                        <li>
+                                            <a href="">Listele</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Ekle</a>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </li>
+
+                            <li class="has-sub">
+                                <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse"
+                                   data-target="#surgical"
+                                   aria-expanded="false" aria-controls="surgical">
+                                    <span class="nav-text">Cerrahi Uygulamalar</span> <b class="caret"></b>
+                                </a>
+                                <ul class="collapse" id="surgical">
+                                    <div class="sub-menu">
+
+                                        <li>
+                                            <a href="">Listele</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="">Ekle</a>
+                                        </li>
+                                    </div>
+                                </ul>
                             </li>
 
 
