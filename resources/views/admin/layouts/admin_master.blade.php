@@ -127,13 +127,8 @@
         <footer class="footer mt-auto">
             <div class="copyright bg-white">
                 <p>
-                    &copy; <span id="copy-year">2019</span> Copyright Sleek Dashboard Bootstrap Template by
-                    <a
-                        class="text-primary"
-                        href="http://www.iamabdus.com/"
-                        target="_blank"
-                    >Abdus</a
-                    >.
+                    &copy; <span id="copy-year">2022</span> Copyright
+                    <a class="text-primary" href="https://www.linkedin.com/in/elif-bahar-%C3%B6zdo%C4%9Fru/" target="_blank" >Elif Bahar Özdoğru</a> || Tüm Hakları Saklıdır.
                 </p>
             </div>
             <script>
