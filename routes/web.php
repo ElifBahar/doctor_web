@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\admin\homePage\AboutController;
 use App\Http\Controllers\admin\homePage\SliderController;
 use App\Http\Controllers\frontend\FrontHomeController;
 use Illuminate\Support\Facades\Route;
@@ -37,6 +38,14 @@ Route::group((['prefix' => 'panel', 'middleware' => ['auth:sanctum', 'verified']
         Route::get('/slider/edit/{id}',[SliderController::class, 'SliderEdit'])->name('slider-edit');
         Route::post('/slider/update/{id}',[SliderController::class, 'SliderUpdate'])->name('slider-update');
         Route::get('/slider/delete/{id}',[SliderController::class, 'SliderDelete'])->name('slider-delete');
+
+        // Home About
+        Route::get('/about',[AboutController::class, 'index'])->name('about-index');
+        Route::get('/about/add',[AboutController::class, 'AddAbout'])->name('about-add');
+        Route::post('/about/store',[AboutController::class, 'StoreAbout'])->name('about-store');
+        Route::get('/slider/edit/{id}',[AboutController::class, 'AboutEdit'])->name('about-edit');
+        Route::post('/about/update/{id}',[AboutController::class, 'AboutUpdate'])->name('about-update');
+        Route::get('/about/delete/{id}',[AboutController::class, 'AboutDelete'])->name('about-delete');
     });
 
 });
