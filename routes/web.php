@@ -36,7 +36,7 @@ Route::group((['prefix' => 'panel', 'middleware' => ['auth:sanctum', 'verified']
         Route::post('/slider/store',[SliderController::class, 'StoreSlider'])->name('slider-store');
         Route::get('/slider/edit/{id}',[SliderController::class, 'SliderEdit'])->name('slider-edit');
         Route::post('/slider/update/{id}',[SliderController::class, 'SliderUpdate'])->name('slider-update');
-        Route::get('/slider/delete/{id}',[SliderController::class, 'SliderDelete']);
+        Route::get('/slider/delete/{id}',[SliderController::class, 'SliderDelete'])->name('slider-delete');
     });
 
 });

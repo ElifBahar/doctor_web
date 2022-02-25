@@ -41,7 +41,7 @@
 
 @include('frontend.layouts.header')
 
-@if($sliders != null)
+@if( count($sliders) > 0 )
 
     @include('frontend.layouts.slider')
 @endif
