@@ -54,7 +54,7 @@
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
-        <div class="container" data-aos="fade-up">
+        <div class="container" data-aos="fade-up" >
 
             <div class="section-title">
                 <h2>Services</strong></h2>

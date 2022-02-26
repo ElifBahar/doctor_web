@@ -30,7 +30,7 @@
                 <li class="drop-down"><a href="">Uygulamalar</a>
                     <ul>
 
-                        <li class="drop-down"><a href="#">Klinik Uygulamalar</a>
+                        <li class="drop-down"><a href="{{ route('front-services-clinical-index') }}">Klinik Uygulamalar</a>
                             <ul>
                                 <li><a href="#">Deep Drop Down 1</a></li>
                                 <li><a href="#">Deep Drop Down 2</a></li>
@@ -40,7 +40,7 @@
                             </ul>
                         </li>
 
-                        <li class="drop-down"><a href="#">Cerrahi Uygulamalar</a>
+                        <li class="drop-down"><a href="">Cerrahi Uygulamalar</a>
                             <ul>
                                 <li><a href="#">Deep Drop Down 1</a></li>
                                 <li><a href="#">Deep Drop Down 2</a></li>

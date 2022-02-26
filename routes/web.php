@@ -4,6 +4,7 @@ use App\Http\Controllers\admin\homePage\AboutController;
 use App\Http\Controllers\admin\homePage\SliderController;
 use App\Http\Controllers\frontend\FrontAboutController;
 use App\Http\Controllers\frontend\FrontHomeController;
+use App\Http\Controllers\frontend\FrontServicesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,6 +27,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[FrontHomeController::class,'index'])->name('front-home');
 Route::get('/about',[FrontAboutController::class,'indexAbout'])->name('front-about-index');
 Route::get('/about/education',[FrontAboutController::class,'indexEducation'])->name('front-about-education-index');
+
+
+Route::get('/services/clinical',[FrontServicesController::class,'indexClinical'])->name('front-services-clinical-index');
 
 Route::group((['prefix' => 'panel', 'middleware' => ['auth:sanctum', 'verified']]), function (){
     Route::get('/home',function (){

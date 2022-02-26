@@ -611,11 +611,19 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+#services {
+    background-image: url('/frontend/assets/img/background_home_02-01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(6px);
 }
 
 .services .icon-box .icon {
@@ -665,6 +673,7 @@ section {
 
 .services .icon-box:hover {
   border-color: #fff;
+    background-color: #fff;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
