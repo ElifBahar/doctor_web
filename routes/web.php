@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\admin\homePage\AboutController;
 use App\Http\Controllers\admin\homePage\SliderController;
+use App\Http\Controllers\frontend\FrontAboutController;
 use App\Http\Controllers\frontend\FrontHomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -22,7 +23,8 @@ use Illuminate\Support\Facades\Route;
 
 */
 
-Route::get('/',[FrontHomeController::class,'index']);
+Route::get('/',[FrontHomeController::class,'index'])->name('front-home');
+Route::get('/about',[FrontAboutController::class,'index'])->name('front-about');
 
 Route::group((['prefix' => 'panel', 'middleware' => ['auth:sanctum', 'verified']]), function (){
     Route::get('/home',function (){
