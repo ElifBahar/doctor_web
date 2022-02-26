@@ -8,11 +8,11 @@
 
         <nav class="nav-menu d-none d-lg-block">
             <ul>
-                <li class="active"><a href="index.html">Ana Sayfa</a></li>
+                <li class="active"><a href="{{ route('front-home') }}">Ana Sayfa</a></li>
 
                 <li class="drop-down"><a href="">Hakkımda</a>
                     <ul>
-                        <li><a href="about.html">Hakkımda</a></li>
+                        <li><a href="{{ route('front-about') }}">Hakkımda</a></li>
                         <li><a href="team.html">Eğitim</a></li>
                         <li><a href="testimonials.html">Kariyer</a></li>
                         <li class="drop-down"><a href="#">Deep Drop Down</a>
