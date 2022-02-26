@@ -41,10 +41,6 @@
 
 @include('frontend.layouts.header')
 
-@if( count($sliders) > 0 )
-
-    @include('frontend.layouts.slider')
-@endif
 
 
 <main id="main">
