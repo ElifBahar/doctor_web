@@ -1,4 +1,8 @@
 @extends('frontend.layouts.frontend_master')
+@if( count($sliders) > 0 )
+
+    @include('frontend.layouts.slider')
+@endif
 
 @section('home_content')
     <!-- ======= About Us Section ======= -->
