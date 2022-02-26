@@ -11,7 +11,6 @@ class FrontHomeController extends Controller
     public function index(){
         $sliders = Slider::get();
         $about_me = HomeAbout::latest()->first();
-
         return view('frontend.home',compact('sliders','about_me'));
     }
 }

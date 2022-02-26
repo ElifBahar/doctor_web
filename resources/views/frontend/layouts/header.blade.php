@@ -12,8 +12,8 @@
 
                 <li class="drop-down"><a href="">Hakkımda</a>
                     <ul>
-                        <li><a href="{{ route('front-about') }}">Hakkımda</a></li>
-                        <li><a href="team.html">Eğitim</a></li>
+                        <li><a href="{{ route('front-about-index') }}">Hakkımda</a></li>
+                        <li><a href="{{ route('front-about-education-index') }}">Eğitim</a></li>
                         <li><a href="testimonials.html">Kariyer</a></li>
                         <li class="drop-down"><a href="#">Deep Drop Down</a>
                             <ul>
