@@ -60,8 +60,8 @@
 
 
                             <li class="active">
-                                <a class="sidenav-item-link" href="index.html">
-                                    <span class="nav-text">Home Portfolio</span>
+                                <a class="sidenav-item-link" href="{{route('workingDays-index')}}">
+                                    <span class="nav-text">Çalışma Saatleri</span>
 
                                 </a>
                             </li>
