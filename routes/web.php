@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\admin\homePage\AboutController;
+use App\Http\Controllers\admin\homePage\HPMainController;
 use App\Http\Controllers\admin\homePage\SliderController;
 use App\Http\Controllers\frontend\FrontAboutController;
 use App\Http\Controllers\frontend\FrontHomeController;
@@ -25,6 +26,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[FrontHomeController::class,'index'])->name('front-home');
+Route::get('/bahar', function (){
+    return view("front.home");
+});
 Route::get('/about',[FrontAboutController::class,'indexAbout'])->name('front-about-index');
 Route::get('/about/education',[FrontAboutController::class,'indexEducation'])->name('front-about-education-index');
 
@@ -53,6 +57,8 @@ Route::group((['prefix' => 'panel', 'middleware' => ['auth:sanctum', 'verified']
         Route::get('/about/edit/{id}',[AboutController::class, 'AboutEdit'])->name('about-edit');
         Route::post('/about/update/{id}',[AboutController::class, 'AboutUpdate'])->name('about-update');
         Route::get('/about/delete/{id}',[AboutController::class, 'AboutDelete'])->name('about-delete');
+
+        Route::get('/workingTimes',[HPMainController::class, 'workingDays'])->name('workingDays-index');
     });
 
 });
