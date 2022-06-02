@@ -1,20 +1,6 @@
-@extends('frontend.layouts.frontend_master')
+@extends('frontend.layouts.app')
 
-@section('home_content')
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-        <div class="container">
-
-            <div class="d-flex justify-content-between align-items-center">
-                <h2>Eğitim</h2>
-                <ol>
-                    <li><a href="{{ route('front-about-index') }}">Hakkımda</a></li>
-                    <li>Eğitim</li>
-                </ol>
-            </div>
-
-        </div>
-    </section><!-- End Breadcrumbs -->
+@section('content')
 
 
     <!-- ======= Our Team Section ======= -->
