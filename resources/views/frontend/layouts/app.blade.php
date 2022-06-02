@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="frontend/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="frontend/assets/css/reset.css">
-    <link rel="stylesheet" href="frontend/assets/css/style.css">
-    <link rel="stylesheet" href="frontend/assets/js/bootstrap.min.js">
-    <link rel="stylesheet" href="frontend/assets/js/popper.min.js">
+    <link rel="stylesheet" href="{{asset('frontend/assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('frontend/assets/css/reset.css')}}">
+    <link rel="stylesheet" href="{{asset('frontend/assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('frontend/assets/js/bootstrap.min.js')}}">
+    <link rel="stylesheet" href="{{asset('frontend/assets/js/popper.min.js')}}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -27,8 +27,8 @@
                 <li class="nav-right-links"><a href="">BİLGİ KÖŞESİ</a></li>
                 <li class="nav-right-links"><a href="">Blog</a></li>
                 <li class="nav-right-links"><a href="">İLETİŞİM</a></li>
-                <li class="nav-right-links mx-0"><a href="" class="search"><img src="frontend/assets/img/search.png" alt="search.png"></a></li>
-                <li class="nav-right-links"><a href="" class="date-button"> <img src="frontend/assets/img/calendar-4.svg" alt="calendar-4.svg"> Randevu Al</a></li>
+                <li class="nav-right-links mx-0"><a href="" class="search"><img src="{{asset('frontend/assets/img/search.png')}}" alt="search.png"></a></li>
+                <li class="nav-right-links"><a href="" class="date-button"> <img src="{{asset('frontend/assets/img/calendar-4.svg')}}" alt="calendar-4.svg"> Randevu Al</a></li>
             </ul>
         </div>
     </nav>
