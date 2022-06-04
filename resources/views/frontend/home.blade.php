@@ -119,7 +119,8 @@
 
                                         <div class="symptoms">
                                             <p class="mb-1">Usual Symptoms:</p>
-                                            <ul style="margin-left: 45px">
+
+                                            <ul>
                                                 <li>Weakness</li>
                                                 <li>Fainting</li>
                                                 <li> Heart failure</li>

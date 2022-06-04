@@ -916,7 +916,18 @@ $n02: #d8f7f9 ; /* neutral 2*/
 }
 
 .tabcontent .symptoms ul{
+    margin-left: 45px;
     list-style-type: disc;
+
+    @media screen and (max-width: 512px) {
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
+
+.tabcontent .symptoms ul li{
+    transition: all 1s ease;
+    animation: fadeEffect 0.6s ease;
 }
 @keyframes fadeEffect {
     from {

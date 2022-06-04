@@ -855,7 +855,19 @@ body {
 }
 
 .tabcontent .symptoms ul {
+  margin-left: 45px;
   list-style-type: disc;
+}
+@media screen and (max-width: 512px) {
+  .tabcontent .symptoms ul {
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+
+.tabcontent .symptoms ul li {
+  transition: all 1s ease;
+  animation: fadeEffect 0.6s ease;
 }
 
 @keyframes fadeEffect {
