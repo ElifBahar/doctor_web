@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Pinyon+Script&display=swap");
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i");
 body {
   font-family: "Inter", sans-serif;
 }
@@ -115,7 +116,7 @@ body {
   color: #fff !important;
 }
 .header .header-content-slider .header-cards .card1 {
-  background-color: #e4f2fd33;
+  background-color: rgba(228, 242, 253, 0.2);
   border-right: 1px solid rgba(255, 255, 255, 0.3);
   background-color: rgba(255, 255, 255, 0.15);
 }
@@ -134,7 +135,7 @@ body {
   justify-content: center;
 }
 .header .header-content-slider .header-cards .card2 {
-  background-color: #e4f2fd33;
+  background-color: rgba(228, 242, 253, 0.2);
   backdrop-filter: blur(10px);
   border-right: 1px solid rgba(240, 248, 255, 0.568);
   background-color: rgba(255, 255, 255, 0.15);
@@ -164,8 +165,8 @@ body {
   color: black;
 }
 .header .header-content-slider .header-cards .card3 > div:first-child .icon-border {
-  -webkit-box-shadow: 0 0 0 3em white inset;
-  box-shadow: 0 0 0 3em white inset;
+  -webkit-box-shadow: 0 0 0 3em rgb(255, 255, 255) inset;
+  box-shadow: 0 0 0 3em rgb(255, 255, 255) inset;
   border-radius: 50%;
   padding: 10px;
   color: #01cab8;
@@ -301,7 +302,7 @@ body {
   padding: 20px 40px;
   min-height: 300px;
   justify-content: center;
-  box-shadow: 1px 1px 16px 0px #00000026;
+  box-shadow: 1px 1px 16px 0px rgba(0, 0, 0, 0.1490196078);
 }
 .services .services-inner .service-type i {
   color: #175c62;
@@ -367,7 +368,7 @@ body {
 }
 .working-info .working-info-inner .working-times {
   flex-basis: 33.333333%;
-  background: linear-gradient(0deg, #01cab8 0%, #01cab8 100%);
+  background: linear-gradient(0deg, #01cab8 0%, rgb(1, 202, 184) 100%);
   padding: 30px;
   border-radius: 8px;
 }
@@ -382,7 +383,7 @@ body {
 }
 .working-info .working-info-inner .working-times .day {
   color: #fff;
-  border-bottom: 1px solid #ffffff80;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5019607843);
   padding: 20px 5px;
   display: flex;
   justify-content: space-between;
@@ -540,7 +541,7 @@ body {
   color: #ffffff;
   background-color: #fff;
   color: #132759;
-  border: 1px solid white;
+  border: 1px solid rgb(255, 255, 255);
 }
 .footer .footer-inner .footer-top .extra {
   display: flex;
@@ -568,6 +569,288 @@ body {
 .z3 {
   position: relative;
   z-index: 3;
+}
+
+/* main 1*/
+/* main 2*/
+/* neutral 1*/
+/* neutral 2*/
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  min-width: 260px;
+  margin: 0 5%;
+  margin-top: 5%;
+  transition: 0.3s ease;
+}
+@media screen and (max-width: 512px) {
+  .content {
+    margin: 0 4%;
+    margin-top: 5%;
+  }
+}
+
+/* Tabs menu */
+.tabs {
+  margin: 0;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #d8f7f9 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-radius: 2px 2px 0px 0px;
+}
+@media screen and (max-width: 512px) {
+  .tabs {
+    height: 40px;
+  }
+}
+
+/* Tab Links */
+.tablinks {
+  background: transparent;
+  background-image: linear-gradient(90deg, transparent 70%, rgba(255, 255, 255, 0.2) 100%);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 25%; /*change depending on the number of tabs*/
+  height: 80px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+@media screen and (max-width: 512px) {
+  .tablinks {
+    height: 40px;
+    font-size: 12px;
+  }
+}
+
+.tablinks:before {
+  background-image: linear-gradient(135deg, #87FBE3 0%, #144274 100%);
+  content: "";
+  width: 100%;
+  height: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.3s ease-in-out;
+  z-index: 2;
+}
+
+/*tab buttons hover*/
+.tablinks:hover::before {
+  height: 100%;
+  z-index: 2;
+  bottom: 0;
+}
+@media screen and (max-width: 512px) {
+  .tablinks:hover::before {
+    height: 0;
+  }
+}
+
+/* Tab active */
+.tablinks.active {
+  background-color: white;
+  z-index: 0;
+  border-right: 0px;
+  border-left: 0px;
+  height: 110px;
+  bottom: 0px;
+  overflow: hidden;
+}
+@media screen and (max-width: 512px) {
+  .tablinks.active {
+    height: 60px;
+  }
+}
+
+.tablinks.active:before {
+  content: "";
+  width: 100%;
+  height: 5px;
+  top: 0;
+  left: 0;
+}
+
+/* Tabs text */
+.tablinks.active p,
+.tablinks.active:hover p {
+  opacity: 1;
+  background: -webkit-linear-gradient(135deg, #0dcdbc 0%, #0dcdbc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tablinks p {
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transition: 0.5s ease;
+  padding: 0;
+  margin: 0;
+  color: #686868;
+  backface-visibility: hidden;
+  font-weight: 400;
+}
+
+.tablinks:hover p {
+  color: white;
+  opacity: 1;
+}
+@media screen and (max-width: 512px) {
+  .tablinks:hover p {
+    color: #686868;
+    opacity: 0.6;
+  }
+}
+
+/* Tabs text bigger */
+.tablinks p:before {
+  content: attr(data-title);
+  position: absolute;
+  height: auto;
+  width: auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.1;
+  font-size: 40px;
+  transition: 1s ease-out;
+  z-index: -1;
+  font-weight: 600;
+  top: 110%;
+}
+@media screen and (max-width: 512px) {
+  .tablinks p:before {
+    display: none;
+  }
+}
+
+.tablinks:hover p:before {
+  opacity: 0.1;
+  font-size: 40px;
+  top: -80%;
+}
+
+/* tab content */
+.wrapper_tabcontent {
+  background-color: white;
+  margin-top: 0px;
+  z-index: -3;
+  position: relative;
+  opacity: 1;
+  padding: 40px 60px;
+  overflow: hidden;
+  transition: all 1s ease;
+  top: 0;
+}
+
+.tabcontent {
+  display: none;
+  min-height: 180px;
+}
+
+@keyframes tabEffect {
+  from {
+    top: -40px;
+  }
+  to {
+    top: 0px;
+  }
+}
+.tabcontent.active {
+  transition: all 1s ease;
+  display: block;
+}
+
+/* Tab content line */
+.wrapper_tabcontent:after {
+  content: "";
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  background-image: linear-gradient(135deg, #87FBE3 0%, #144274 100%);
+  left: 0;
+  bottom: 0;
+  z-index: -2;
+  transition: all 1s ease;
+}
+
+/* Title */
+.tabcontent h3 {
+  font-size: 40px;
+  top: 75px;
+  transform: rotate(90deg);
+  position: absolute;
+  left: -90px;
+  opacity: 0.1;
+  width: 200px;
+  height: 60px;
+  background: -webkit-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0;
+  animation: city 1s ease;
+}
+@media screen and (max-width: 512px) {
+  .tabcontent h3 {
+    top: 65px;
+  }
+}
+
+@keyframes city {
+  from {
+    left: -150px;
+  }
+  to {
+    left: -90px;
+  }
+}
+/* Text*/
+.tabcontent p {
+  color: #686868;
+  margin: 0;
+  padding: 0;
+  line-height: 28px;
+  font-weight: 100;
+  transition: all 1s ease;
+  animation: fadeEffect 0.6s ease;
+  width: 100%;
+  font-size: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+@media screen and (max-width: 512px) {
+  .tabcontent p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+    margin-left: 30px;
+  }
+  to {
+    opacity: 1;
+    margin-left: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
