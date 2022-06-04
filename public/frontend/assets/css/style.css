@@ -795,14 +795,14 @@ body {
 /* Title */
 .tabcontent h3 {
   font-size: 40px;
-  top: 75px;
+  top: 95px;
   transform: rotate(90deg);
   position: absolute;
   left: -90px;
-  opacity: 0.1;
-  width: 200px;
+  opacity: 0.15;
+  width: 213px;
   height: 60px;
-  background: -webkit-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: -webkit-linear-gradient(135deg, #667eea 0%, #184978 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 0;
@@ -840,6 +840,22 @@ body {
     font-size: 14px;
     line-height: 26px;
   }
+}
+
+.tabcontent .prior p {
+  font-weight: 800;
+}
+
+.tabcontent .seconder p {
+  font-weight: 400;
+}
+
+.tabcontent .symptoms p {
+  font-weight: 400;
+}
+
+.tabcontent .symptoms ul {
+  list-style-type: disc;
 }
 
 @keyframes fadeEffect {

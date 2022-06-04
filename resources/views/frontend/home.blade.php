@@ -97,8 +97,43 @@
                         <!-- Tab content -->
                         <div class="wrapper_tabcontent">
                             <div id="London" class="tabcontent active">
-                                <h3>Kireçlenme</h3>
-                                <p>London is the capital of Great Britain. It is one of the greatest cities in the world. It is an important business and financial centre. It is an intellectual centre, too. Everywhere in London, there are open spaces: Hyde Park and Regent Park are the largest. The City is the oldest part of London. </p>
+                                <div class="row p-4">
+                                    <div class="col-6">
+                                        <h3>Kireçlenme</h3>
+
+                                        <div class="prior mb-2">
+                                            <p>
+                                                <strong>
+                                                    An arrhythmia is an abnormal heart rhythm. Some arrhythmias can cause problems with contractions of your heart chambers by not allowing the top chambers (atria) to squeeze correctly.
+
+                                                </strong>
+                                            </p>
+
+                                        </div>
+
+                                        <div class="seconder mb-4">
+                                            <p>
+                                                The choice will be based on the type of arrhythmia you have, how severe your symptoms are, and if you have other conditions such as diabetes, kidney failure, or heart failure. Your healthcare provider will discuss your treatment options with you.
+                                            </p>
+                                        </div>
+
+                                        <div class="symptoms">
+                                            <p class="mb-1">Usual Symptoms:</p>
+                                            <ul style="margin-left: 45px">
+                                                <li>Weakness</li>
+                                                <li>Fainting</li>
+                                                <li> Heart failure</li>
+
+                                            </ul>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="col-6">
+                                        <img class="img-fluid" src="https://cliniq.bold-themes.com/classic/wp-content/uploads/sites/3/2021/08/inner_image_01.jpg" alt="">
+                                    </div>
+                                </div>
+
                             </div>
 
                             <div id="Paris" class="tabcontent">
