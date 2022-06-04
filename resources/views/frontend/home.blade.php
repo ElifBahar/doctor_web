@@ -164,11 +164,21 @@
         <div class="services-inner _inner">
 
             <div class="service-type">
-                <i class="fa-solid fa-brain"></i>
-                <h7 class="service-title">Lorem ipsum dolor sit amet.</h7>
+                <i class="fa-solid fa-laptop-medical"></i>
+                <h7 class="service-title">Özel Ortopedi Kliniği</h7>
                 <hr>
-                <p class="service-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro deserunt,
-                    eius at beatae cum provident?</p>
+                <p class="service-description">Tüm insanı önemsiyoruz, her insanın hayatının karmaşıklığını görüyoruz ve geniş bir yelpazeye hitap etmenin gerektiğine inanıyoruz.</p>
+                <ul>
+                    <li><i class="fa-solid fa-circle-check"></i> Lorem, ipsum dolor.</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Lorem, ipsum dolor.</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Lorem, ipsum dolor.</li>
+                </ul>
+            </div>
+            <div class="service-type">
+                <i class="fa-solid fa-brain"></i>
+                <h7 class="service-title">Teknolojik Görüntüleme Hizmetleri</h7>
+                <hr>
+                <p class="service-description">Görüntüleme hizmetlerimiz, hastalarımız için kolaylık sağlar ve hızlı ve doğru teşhiste büyük önem taşır.</p>
                 <ul>
                     <li><i class="fa-solid fa-circle-check"></i> Lorem, ipsum dolor.</li>
                     <li><i class="fa-solid fa-circle-check"></i> Lorem, ipsum dolor.</li>
@@ -176,22 +186,11 @@
                 </ul>
             </div>
 
-            <div class="service-type">
-                <i class="fa-solid fa-laptop-medical"></i>
-                <h7 class="service-title">Lorem ipsum dolor sit amet.</h7>
-                <hr>
-                <p class="service-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro deserunt,
-                    eius at beatae cum provident?</p>
-                <ul>
-                    <li><i class="fa-solid fa-circle-check"></i> Lorem, ipsum dolor.</li>
-                    <li><i class="fa-solid fa-circle-check"></i> Lorem, ipsum dolor.</li>
-                    <li><i class="fa-solid fa-circle-check"></i> Lorem, ipsum dolor.</li>
-                </ul>
-            </div>
+
 
             <div class="service-type">
                 <i class="fa-solid fa-house-medical"></i>
-                <h7 class="service-title">Lorem ipsum dolor sit amet.</h7>
+                <h7 class="service-title">Cerrahi Merkez</h7>
                 <hr>
                 <p class="service-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro deserunt,
                     eius at beatae cum provident?</p>
