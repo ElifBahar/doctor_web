@@ -43,8 +43,9 @@
                     Op. Dr.
                 </span>
             <h1 class="name">
-                Ömer Cihan BATUR
+                Ömer Cihan <u>BATUR</u>
             </h1>
+            <h2 class="job_title">Ortopedi ve Travmatoloji</h2>
         </div>
         <div class="header-cards">
             <a href="" class="card1 card-standart">
