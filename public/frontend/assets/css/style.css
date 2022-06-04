@@ -50,6 +50,9 @@ body {
   padding: 20px 10px;
   transition: all 0.6s ease;
 }
+.header nav #nav-right .nav-right-links a:hover {
+  transform: scale(1.1);
+}
 .header nav #nav-right ul {
   display: flex;
   align-items: center;

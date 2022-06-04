@@ -162,6 +162,7 @@
 
     <div class="services">
         <div class="services-inner _inner">
+
             <div class="service-type">
                 <i class="fa-solid fa-brain"></i>
                 <h7 class="service-title">Lorem ipsum dolor sit amet.</h7>

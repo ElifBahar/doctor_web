@@ -65,7 +65,7 @@
                 </div>
                 <i class="fa-solid fa-calendar-check"></i>
             </a>
-            <a href="" class="card3 card-standart">
+            <a href="https://www.medicalpark.com.tr/e-randevu" target="_blank" class="card3 card-standart">
                 <div>
                     <h2>Randevu Al</h2>
                     <div class="icon-border">
@@ -75,8 +75,8 @@
                 <div>
                     <i class="fa-solid fa-phone"></i>
                     <div>
-                        <span>Sağlık Parkı</span>
-                        <span>424</span>
+                        <span>Medical Park Elazığ</span><br>
+                        <span>444 4 484</span>
                     </div>
                 </div>
             </a>
